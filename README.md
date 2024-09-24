@@ -1,6 +1,11 @@
 
 # Getting started at the centre
 
+
+## About meet-n-greet
+
+- Your name matters: [tool to use when introducing your name](https://mynameis.raceequalitymatters.com/)
+
 ## Lunch rooms
 - Basement's Lane Lecture Hall (end of hallway on the left side)
 - ...
