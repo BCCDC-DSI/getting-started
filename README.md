@@ -37,7 +37,7 @@
 - U: drive is private to you
 
 ### Cloud computing
-- Digital Research Alliane / Compute Canada: [Registration webform](https://ccdb.alliancecan.ca/account_application)
+- Digital Research Alliance / Compute Canada: [Registration webform](https://ccdb.alliancecan.ca/account_application)
 - UBC Sockeye: info pending
   
 ## Requesting accesses 
