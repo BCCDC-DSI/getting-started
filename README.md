@@ -13,12 +13,20 @@
 ## Room booking
 
 - Consider booking enclosed rooms for meeting (hotelling desks are becoming noisier, per discussions at DAS monthly meeting 2024-09-23)
-- To book rooms:
-  1. login to [ARCHIBUS](https://archibus.healthbc.org/archibus/schema/ab-products/essential/workplace/index.html)
-  2. Search for BCCDC building this way:
-  ![image](https://github.com/user-attachments/assets/620e74c1-386a-4efd-b09d-91eca2d060b6)
 
-- Add as calendar
+### Book rooms through ARCHIBUS
+
+1. login to [ARCHIBUS](https://archibus.healthbc.org/archibus/schema/ab-products/essential/workplace/index.html)
+2. Search for BCCDC building this way:
+![image](https://github.com/user-attachments/assets/620e74c1-386a-4efd-b09d-91eca2d060b6)
+
+### Add 9 CDC rooms' availablity on your calendar
+
+1. On Outlook, click on the calendar tab
+2. Right-click on "Add Calendar" on the sidebar
+3. Choose "From Room List"
+4. Enter "CDC use only"
+5. Double-click those marked with "CDC use only - Room..." (n=9)
 
 ## Phone
 
