@@ -20,7 +20,7 @@
 2. Search for BCCDC building this way:
 ![image](https://github.com/user-attachments/assets/620e74c1-386a-4efd-b09d-91eca2d060b6)
 
-### Add 9 CDC rooms' availablity on your calendar
+### Adding select CDC rooms' availablity on your calendar
 
 1. On Outlook, click on the calendar tab
 2. Right-click on "Add Calendar" on the sidebar
@@ -31,10 +31,12 @@
 ## Phone
 
 - [Form to request phone be attached to your Teams account](https://healthbc.service-now.com/sp_phsa_vch_phc?id=sc_cat_item&sys_id=3633ec54db1c0490ab8b3e0b7c96194a)
-
+  - Check with DAS admin for more info
+    
 ## Computing
 
 - U: drive is private to you
+- O: drive is shared and accessible to other members
 
 ### Cloud computing
 - Digital Research Alliance / Compute Canada: [Registration webform](https://ccdb.alliancecan.ca/account_application)
