@@ -12,7 +12,7 @@
   
 ## Room booking
 
-- Consider booking enclosed rooms for meeting (hotelling desks are becoming noisier, per discussions at DAS monthly meeting 2024-09-23)
+- Consider booking enclosed rooms for meeting via Outlook or [ARCHIBUS](https://archibus.healthbc.org/archibus/schema/ab-products/essential/workplace/index.html) (hotelling desks are becoming noisier, per discussions at DAS monthly meeting 2024-09-23)
 - Basement floor (Environmental Health) has following rooms:
   - Room Earth
   - Room Fire
