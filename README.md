@@ -18,7 +18,7 @@
   - Room Fire
   - Room Water
 - First floor
-  - Room TB  (room wit window)
+  - Room TB  (room with window)
   - Room IMMS (room without window), closest to foyer
   - Room Moose usually for big meetings
 - Second floor
