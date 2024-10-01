@@ -13,7 +13,20 @@
 ## Room booking
 
 - Consider booking enclosed rooms for meeting (hotelling desks are becoming noisier, per discussions at DAS monthly meeting 2024-09-23)
-
+- Basement floor (Environmental Health) has following rooms:
+  - Room Earth
+  - Room Fire
+  - Room Water
+- First floor
+  - Room TB  (room wit window)
+  - Room IMMS (room without window), closest to foyer
+  - Room Moose usually for big meetings
+- Second floor
+  - Tom Cox - usually for big meetings but feel free to book for short meetings when you see it idle
+  - UBC/CDC board room (close to DAS kitchen)
+    
+- Room Hamlet: info pending
+  
 ### Book rooms through ARCHIBUS
 
 1. login to [ARCHIBUS](https://archibus.healthbc.org/archibus/schema/ab-products/essential/workplace/index.html)
