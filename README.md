@@ -1,5 +1,5 @@
 
-# Getting started at the centre
+*Notes for getting you started at the centre*
 
 
 ## About meet-n-greet
