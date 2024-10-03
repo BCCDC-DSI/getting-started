@@ -5,16 +5,13 @@
 
 The instructions prepared by [Digital Ocean](https://www.digitalocean.com/community/tutorials/install-python-windows-10) have worked on 2024-10-03.
 
-1. Download Python installer  https://www.python.org/downloads/windows/
+1. Download [Python installer](https://www.python.org/downloads/windows/)
 
-2. If you have a second admin userID, click on ```Disable path length limit```:
-
+2. If you have a (second) admin userID, click on ```Disable path length limit```:
   ![image](https://github.com/user-attachments/assets/c8c84fa3-1a38-45cf-b538-888f0c48a18f)
 
-3. Add ```Python``` to the list of ```Environmental variable```
-
+3. Add ```Python``` to the list of ```Environmental variable```; here are some screenshots:
   ![image](https://github.com/user-attachments/assets/dba02098-d18d-4d8b-931e-f6cf43703a26)
-
 
 
 ## Clone from an existing GitHub repository 
@@ -51,7 +48,7 @@ To illustrate, clone from a repo containing Python code (previously prepared by 
   pip install -r requirementsWindows.txt
   ```
 
-7. Work on ```C:``` drive (network drives U and O appear to be slower)
+7. Try executing one Python script created for this project:
   ```
-  cd C:\Users\user.name\DSI\
+  python create_dataset.py
   ```
