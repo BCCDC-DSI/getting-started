@@ -65,6 +65,12 @@ One would need to ask for permission to gain access:
 - O: drive - email lead whom provided your orientation
 - Posit Cloud (for R and Python)
   - Will need to email administrator (chat with LT for mor einfo)
-    
-Note re: SharePoint materials: some pages available to all PHSA, others are kept private to department
+
+Note that SharePoint materials are ready-only for PHSA-member. 
+
+
+## Working with Python
+
+- [Installing Python on your station](python), last tested on 2024-10-02
+
 
