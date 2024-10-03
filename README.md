@@ -1,12 +1,15 @@
 
-*Notes for getting you started at the centre*
+*Notes for getting you started at DSI*
 
 
 ## About meet-n-greet
 
-- Your name matters: [tool to use when introducing your name](https://mynameis.raceequalitymatters.com/)
+Your name matters! 
+
+Here's a [tool to use when introducing your name](https://mynameis.raceequalitymatters.com/)
 
 ## Lunch rooms
+- DAS kitchen on 2nd floor
 - Basement's Lane Lecture Hall (end of hallway on the left side)
 - ...
   
