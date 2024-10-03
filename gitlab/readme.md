@@ -31,14 +31,15 @@
 
 <details>
 <summary> R terminal in R Studio via CAP </summary>
+
+Please review the tutorial by [Michael K.](https://healthbc-my.sharepoint.com/personal/michael_kuo_bccdc_ca/_layouts/15/onedrive.aspx?id=%2Fpersonal%2Fmichael%5Fkuo%5Fbccdc%5Fca%2FDocuments%2FMicrosoft%20Teams%20Chat%20Files%2Fversion%5Fcontrol%5Ftutorial%2Ehtml&parent=%2Fpersonal%2Fmichael%5Fkuo%5Fbccdc%5Fca%2FDocuments%2FMicrosoft%20Teams%20Chat%20Files&ga=1)
+
 </details>
 
 <details>
-<summary> Git Bash via Anaconda3 </summary>
+<summary> Git Bash </summary>
 
-1. Install ***Anaconda3***
-
-2. Launch ***Git Bash***
+1. Launch ***Git Bash***
 
 3. In ***Git Bash***, change directory to where you'd like your local copy to reside, e.g. 
    ```cd o:``` and press ENTER
