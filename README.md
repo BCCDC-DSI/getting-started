@@ -57,20 +57,21 @@
   
 ## Requesting accesses 
 
-One would need to ask for permission to gain access:
+One would need to ask for permission to gain access to...
+
+- O: drive - email lead whom provided your orientation
 
 - GitLab
   - [GitLab quick notes](gitlab)
-  - See [guide](https://healthbc-my.sharepoint.com/:w:/g/personal/kathleen_mclean_bccdc_ca/EZ04hCW-tX1KjcWe0oCA41EBnB1hEtVWeLw5prlKj3kQ0Q?e=E90wOC) before emailing administrator (chat with LT for more info)
-- O: drive - email lead whom provided your orientation
-- Posit Cloud (for R and Python)
-  - Will need to email administrator (chat with LT for mor einfo)
+  - See [guide](https://healthbc-my.sharepoint.com/:w:/g/personal/kathleen_mclean_bccdc_ca/EZ04hCW-tX1KjcWe0oCA41EBnB1hEtVWeLw5prlKj3kQ0Q?e=E90wOC) before emailing administrator
 
-Note that SharePoint materials are ready-only for PHSA-member. 
+- Posit Cloud (for R and Python)
+
+Note also that SharePoint materials are ready-only by PHSA-member. 
 
 
 ## Working with Python
 
-- [Installing Python on your station](python), last tested on 2024-10-02
+- [Installing Python + creating virtual env without Anaconda](python), last tested on 2024-10-02
 
 
