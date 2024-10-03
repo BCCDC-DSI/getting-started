@@ -65,3 +65,6 @@ Please review the tutorial by [Michael K.](https://healthbc-my.sharepoint.com/pe
 
 7. Check the repo GitLab for your changes, unless error messages were generated in Step 5
 </details>
+
+
+[Return to home](../)
