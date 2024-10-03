@@ -60,7 +60,7 @@
 One would need to ask for permission to gain access:
 
 - GitLab
-  - [SharePoint page](https://healthbc.sharepoint.com/sites/BCCDCDataAnalyticsServicePHSA)
+  - [GitLab quick notes](gitlab)
   - See [guide](https://healthbc-my.sharepoint.com/:w:/g/personal/kathleen_mclean_bccdc_ca/EZ04hCW-tX1KjcWe0oCA41EBnB1hEtVWeLw5prlKj3kQ0Q?e=E90wOC) before emailing administrator (chat with LT for more info)
 - O: drive - email lead whom provided your orientation
 - Posit Cloud (for R and Python)
