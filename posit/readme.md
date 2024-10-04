@@ -87,7 +87,10 @@ Note: ```conda``` is not available by default. On 2024-10-03, we were able to do
 
 # R
 
+## Via Launcher
+![image](https://github.com/user-attachments/assets/a9e8a9f4-df82-4db0-b526-1cd93f00c486)
 
+## Via terminal
 ![image](https://github.com/user-attachments/assets/ef04a109-feae-42c4-8050-fd7fe7bfb225)
 
 [Return to home](..)
