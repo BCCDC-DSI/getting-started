@@ -57,8 +57,12 @@ To illustrate, clone from a repo containing Python code (previously prepared by 
 # VS Code
 
 ![image](https://github.com/user-attachments/assets/9b9a4e00-eef1-481f-8529-670968911cc2)
+![image](https://github.com/user-attachments/assets/692e6b67-75b6-413a-85f2-926176666e8d)
 
 
 ![image](https://github.com/user-attachments/assets/69761037-952a-4428-8d92-af5b3bf3e3ac)
+
+
+![image](https://github.com/user-attachments/assets/05743a5c-b868-4293-8fba-10c00dfce162)
 
 [Return to home](../)
