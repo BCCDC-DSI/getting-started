@@ -88,8 +88,6 @@ Note: ```conda``` is not available by default. On 2024-10-03, we were able to do
 # R
 
 
-
-
-![image](https://github.com/user-attachments/assets/75aeff8f-5ede-4fec-9c4a-f5b7e0d6eabc)
+![image](https://github.com/user-attachments/assets/ef04a109-feae-42c4-8050-fd7fe7bfb225)
 
 [Return to home](..)
