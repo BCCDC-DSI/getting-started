@@ -16,29 +16,29 @@ By default, Posit uses Python 3.6. To check available versions, copy-paste:
 ## Scenario 1: cloning Python code from existing repo (created by your peers)
 
 1. Create virtual environment:
-  ```
-  conda create --name raddpt2 python=3.12  # 
-  ```
-
-  Or, without use of conda:
-  ```
-  python3 -m venv raddpt2
-  ```
+   ```
+   conda create --name raddpt2 python=3.12  # 
+   ```
+ 
+   Or, without use of conda:
+   ```
+   python3 -m venv raddpt2
+   ```
 
 2. Activate virtual environment
-  ```
-  conda activate raddpt2
-  ```
-
-  Or, without use of conda:
-  ```
-  source raddpt2\bin\activate
-  ```
+   ```
+   conda activate raddpt2
+   ```
+ 
+   Or, without use of conda:
+   ```
+   source raddpt2\bin\activate
+   ```
 
 3. Optionally upgrade pip:
-  ```
-  pip install --upgrade pip
-  ```
+   ```
+   pip install --upgrade pip
+   ```
 
 4. Build:
    ```
