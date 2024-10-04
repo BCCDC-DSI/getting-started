@@ -54,4 +54,9 @@ To illustrate, clone from a repo containing Python code (previously prepared by 
   ```
 
 
+# VS Code
+
+![image](https://github.com/user-attachments/assets/9b9a4e00-eef1-481f-8529-670968911cc2)
+
+
 [Return to home](../)
