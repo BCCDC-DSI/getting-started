@@ -3,7 +3,7 @@
 
 1. Discuss with your supervisor regarding which compute environment is most sustainable
 2. Email EL for account
-3. Login [BCCDC's Posit workbench](https://workbench-posit.bccdc.ca/)
+3. Login [BCCDC's Posit workbench](https://workbench-posit.bccdc.ca/) [More screenshots](login.md)
 4. Choose ```File``` > ```New``` > ```Terminal```
  
 By default, Posit uses Python 3.6. To check available versions, copy-paste:
