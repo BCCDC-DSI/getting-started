@@ -68,7 +68,8 @@ One would need to ask for permission to gain access to...
   - [GitLab quick notes](gitlab)
   - See [guide](https://healthbc-my.sharepoint.com/:w:/g/personal/kathleen_mclean_bccdc_ca/EZ04hCW-tX1KjcWe0oCA41EBnB1hEtVWeLw5prlKj3kQ0Q?e=E90wOC) before emailing administrator
 
-- Posit Cloud (for R and Python)
+- [Posit Cloud](posit)
+  - For R and Python users
 
 Note also that SharePoint materials are ready-only by PHSA-member. 
 
