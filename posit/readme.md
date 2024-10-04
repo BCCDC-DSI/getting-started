@@ -40,6 +40,16 @@ By default, Posit uses Python 3.6. To check available versions, copy-paste:
   pip install --upgrade pip
   ```
 
+4. Build:
+   ```
+   pip install -r requirementsWindows.txt
+   ```
+   
+ ![image](https://github.com/user-attachments/assets/8b6a87cc-e74c-43d5-9024-6b905604de00)
+
+
+
+
 # Git
 
 ```
@@ -75,5 +85,11 @@ Note: ```conda``` is not available by default. On 2024-10-03, we were able to do
   eval "$(/data/homes/lisa.tang/bin/ENTER/bin/conda shell.YOUR_SHELL_NAME hook)"
   ```
 
+# R
+
+
+
+
+![image](https://github.com/user-attachments/assets/75aeff8f-5ede-4fec-9c4a-f5b7e0d6eabc)
 
 [Return to home](..)
