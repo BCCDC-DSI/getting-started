@@ -111,7 +111,7 @@ Here's a [tool to use when introducing your name](https://mynameis.raceequalitym
 
 One would need to ask for permission to gain access to...
 
-- O: drive - email lead whom provided your orientation
+- O: drive - To get access to this drive, please email the person who provided your orientation
 
 - GitLab
   - [GitLab quick notes](gitlab)
