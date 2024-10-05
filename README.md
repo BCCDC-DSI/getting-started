@@ -18,9 +18,11 @@ Here's a [tool to use when introducing your name](https://mynameis.raceequalitym
 - Starbucks
 - Shoppers
 - Bubble tea
+- Banana Leaf
+- Cactus Club Cafe
 </details>
 
-## Room booking
+## Room-booking
 
 - Consider booking enclosed rooms for meeting via Outlook or [ARCHIBUS](https://archibus.healthbc.org/archibus/schema/ab-products/essential/workplace/index.html) (hotelling desks are becoming noisier, per discussions at DAS monthly meeting 2024-09-23)
 - Basement floor (Environmental Health) has following rooms:
@@ -37,11 +39,14 @@ Here's a [tool to use when introducing your name](https://mynameis.raceequalitym
     
 - Room Hamlet: info pending
   
-### Book rooms through ARCHIBUS
+<details>
+<summary> Book rooms through ARCHIBUS</summary>
 
 1. login to [ARCHIBUS](https://archibus.healthbc.org/archibus/schema/ab-products/essential/workplace/index.html)
 2. Search for BCCDC building this way:
 ![image](https://github.com/user-attachments/assets/620e74c1-386a-4efd-b09d-91eca2d060b6)
+
+</details>
 
 ### Adding select CDC rooms' availablity on your calendar
 
