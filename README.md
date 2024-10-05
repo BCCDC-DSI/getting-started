@@ -12,7 +12,14 @@ Here's a [tool to use when introducing your name](https://mynameis.raceequalitym
 - DAS kitchen on 2nd floor
 - Basement's Lane Lecture Hall (end of hallway on the left side)
 - Student lounge on 1st floor
-  
+
+<details>
+<summary>Favourite places</summary>
+- Starbucks
+- Shoppers
+- Bubble tea
+</details>
+
 ## Room booking
 
 - Consider booking enclosed rooms for meeting via Outlook or [ARCHIBUS](https://archibus.healthbc.org/archibus/schema/ab-products/essential/workplace/index.html) (hotelling desks are becoming noisier, per discussions at DAS monthly meeting 2024-09-23)
@@ -51,13 +58,23 @@ Here's a [tool to use when introducing your name](https://mynameis.raceequalitym
     
 ## Computing
 
-- U: drive is private to you
-- O: drive is shared and accessible to other members
+<details>
+  <summary>Network drives</summary>
+  - U: drive is private to you
+  - O: drive is shared and accessible to other members
+</details>
 
-### Cloud computing
+<details>
+  <summary>WFH setup</summary>
+  - https://vpn.healthbc.org/logon/LogonPoint/tmindex.html
+</details>
+
+<details>
+  <summary>Cloud computing (external resources)</summary>
 - Digital Research Alliance / Compute Canada: [Registration webform](https://ccdb.alliancecan.ca/account_application)
 - UBC Sockeye: info pending
-  
+</details>
+
 ## Requesting accesses 
 
 One would need to ask for permission to gain access to...
@@ -77,5 +94,5 @@ Note also that SharePoint materials are ready-only by PHSA-member.
 ## Working with Python
 
 - [Installing Python + creating virtual env without Anaconda](python), last tested on 2024-10-02
-
+- [Posit Workbench](posit), last tested on 2024-10-04 
 
