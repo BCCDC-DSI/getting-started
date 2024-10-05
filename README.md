@@ -13,12 +13,15 @@ Here's a [tool to use when introducing your name](https://mynameis.raceequalitym
 - Student lounge on 1st floor
 
 <details>
+
 <summary>Favourite places</summary>
+
 - Starbucks
 - Shoppers
 - Bubble tea
 - Banana Leaf
 - Cactus Club Cafe
+ 
 </details>
 
 ## Room-booking
@@ -46,6 +49,7 @@ Here's a [tool to use when introducing your name](https://mynameis.raceequalitym
 
   
 <details>
+ 
 <summary>Book rooms through ARCHIBUS</summary>
 
 1. login to [ARCHIBUS](https://archibus.healthbc.org/archibus/schema/ab-products/essential/workplace/index.html)
@@ -55,6 +59,7 @@ Here's a [tool to use when introducing your name](https://mynameis.raceequalitym
 </details>
 
 <details>
+ 
 <summary>Book through Outlook</summary> 
 
 1. Send a meeting invite to a meeting room
@@ -67,7 +72,6 @@ Here's a [tool to use when introducing your name](https://mynameis.raceequalitym
 4. Enter "CDC use only"
 5. Double-click those marked with "CDC use only - Room..." (n=9)
 
-
 </details>
 
 
@@ -79,20 +83,28 @@ Here's a [tool to use when introducing your name](https://mynameis.raceequalitym
 ## Computing
 
 <details>
-  <summary>Network drives</summary>
+
+ <summary>Network drives</summary>
+ 
   - U: drive is private to you
   - O: drive is shared and accessible to other members
 </details>
 
 <details>
-  <summary>WFH setup</summary>
-  - https://vpn.healthbc.org/logon/LogonPoint/tmindex.html
+  
+ <summary>VPN Remote Access</summary>
+ 
+ - https://vpn.healthbc.org/logon/LogonPoint/tmindex.html
 </details>
 
+
 <details>
-  <summary>Cloud computing (external resources)</summary>
+
+<summary>Cloud computing (external resources)</summary>
+
 - Digital Research Alliance / Compute Canada: [Registration webform](https://ccdb.alliancecan.ca/account_application)
 - UBC Sockeye: info pending
+
 </details>
 
 ## Requesting accesses 
