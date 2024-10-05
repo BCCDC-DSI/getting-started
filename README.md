@@ -1,6 +1,5 @@
 
-*Notes for getting you started at DSI*
-
+*Notes to work with after week one*
 
 ## About meet-n-greet
 
@@ -24,23 +23,30 @@ Here's a [tool to use when introducing your name](https://mynameis.raceequalitym
 
 ## Room-booking
 
-- Consider booking enclosed rooms for meeting via Outlook or [ARCHIBUS](https://archibus.healthbc.org/archibus/schema/ab-products/essential/workplace/index.html) (hotelling desks are becoming noisier, per discussions at DAS monthly meeting 2024-09-23)
-- Basement floor (Environmental Health) has following rooms:
-  - Room Earth
-  - Room Fire
-  - Room Water
-- First floor
-  - Room TB  (room with window)
-  - Room IMMS (room without window), closest to foyer
-  - Room Moose usually for big meetings
-- Second floor
-  - Tom Cox - usually for big meetings but feel free to book for short meetings when you see it idle
-  - UBC/CDC board room (close to DAS kitchen)
+ 
+
+- Consider booking enclosed rooms for meeting via Outlook or [ARCHIBUS](https://archibus.healthbc.org/archibus/schema/ab-products/essential/workplace/index.html)
+  - "Hotelling desks are becoming noisier", per discussions at DAS monthly meeting 2024-09-23
+  - Link is accessible once you've signed in through [VPN Remote Access](https://vpn.healthbc.org/)
+
+- Room by floor:
+  - Basement floor (Environmental Health) has following rooms:
+    - Room Earth
+    - Room Fire
+    - Room Water
+  - First floor
+    - Room TB  (room with window)
+    - Room IMMS (room without window), closest to foyer
+    - Room Moose usually for big meetings
+  - Second floor
+    - Tom Cox - usually for big meetings but feel free to book for short meetings when you see it idle
+    - UBC/CDC board room (close to DAS kitchen)
     
 - Room Hamlet: info pending
+
   
 <details>
-<summary> Book rooms through ARCHIBUS</summary>
+<summary>Book rooms through ARCHIBUS</summary>
 
 1. login to [ARCHIBUS](https://archibus.healthbc.org/archibus/schema/ab-products/essential/workplace/index.html)
 2. Search for BCCDC building this way:
@@ -48,13 +54,22 @@ Here's a [tool to use when introducing your name](https://mynameis.raceequalitym
 
 </details>
 
-### Adding select CDC rooms' availablity on your calendar
+<details>
+<summary>Book through Outlook</summary> 
+
+1. Send a meeting invite to a meeting room
+  
+2. Optionally, add CDC rooms' availablity onto your calendar
 
 1. On Outlook, click on the calendar tab
 2. Right-click on "Add Calendar" on the sidebar
 3. Choose "From Room List"
 4. Enter "CDC use only"
 5. Double-click those marked with "CDC use only - Room..." (n=9)
+
+
+</details>
+
 
 ## Phone
 
