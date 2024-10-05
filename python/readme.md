@@ -1,7 +1,11 @@
 
-# Starting new Python project at the centre
+## Using Python in external resources
 
-## Download and install Python
+- See notes on [Colab](colab)
+
+## Starting new Python project codebase at the centre
+
+### Download and install Python
 
 The instructions prepared by [Digital Ocean](https://www.digitalocean.com/community/tutorials/install-python-windows-10) have worked on 2024-10-03.
 
@@ -14,7 +18,7 @@ The instructions prepared by [Digital Ocean](https://www.digitalocean.com/commun
   ![image](https://github.com/user-attachments/assets/dba02098-d18d-4d8b-931e-f6cf43703a26)
 
 
-## Clone from an existing GitHub repository 
+### Clone from an existing GitHub repository 
 
 To illustrate, clone from a repo containing Python code (previously prepared by your peers)
 
@@ -54,12 +58,14 @@ To illustrate, clone from a repo containing Python code (previously prepared by 
   ```
 
 
-# VS Code
+### Python in VS Code
 
 ![image](https://github.com/user-attachments/assets/9b9a4e00-eef1-481f-8529-670968911cc2)
 
+<details>
+  
+<summary>Creating new notebook</summary>
 
-## Creating new notebook
 
 1. Go to Command Palette 
   ![image](https://github.com/user-attachments/assets/692e6b67-75b6-413a-85f2-926176666e8d)
@@ -69,5 +75,8 @@ To illustrate, clone from a repo containing Python code (previously prepared by 
 
 3. Select the ```kernel```
   ![image](https://github.com/user-attachments/assets/200dd04e-9756-40b4-a8d7-eefec888d521)
+
+</details> 
+
 
 [Return to home](../)
