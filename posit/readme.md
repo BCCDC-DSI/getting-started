@@ -82,7 +82,7 @@ Note: ```conda``` is not available by default. On 2024-10-03, we were able to do
 
 4. Activate conda's base environment:
   ```
-  eval "$(/data/homes/lisa.tang/bin/ENTER/bin/conda shell.YOUR_SHELL_NAME hook)"
+  eval "$($HOME/miniconda3/bin/conda shell.bash hook)"
   ```
 
 # R
