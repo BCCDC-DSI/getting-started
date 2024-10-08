@@ -1,0 +1,599 @@
+lvmrstudiodh01.phsabc.ehcnet.ca
+    description: Computer
+    width: 64 bits
+    capabilities: smp vsyscall32
+  *-core
+       description: Motherboard
+       physical id: 0
+     *-memory
+          description: System memory
+          physical id: 0
+          size: 128GiB
+     *-cpu
+          product: Intel(R) Xeon(R) CPU E5-2650 v4 @ 2.20GHz
+          vendor: Intel Corp.
+          physical id: 1
+          bus info: cpu@0
+          version: 6.45.2
+          width: 64 bits
+          capabilities: fpu fpu_exception wp vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ss ht syscall nx rdtscp x86-64 constant_tsc arch_perfmon nopl xtopology tsc_reliable nonstop_tsc cpuid pni pclmulqdq ssse3 cx16 pcid sse4_1 sse4_2 x2apic popcnt tsc_deadline_timer aes xsave avx hypervisor lahf_lm pti ssbd ibrs ibpb stibp tsc_adjust arat md_clear flush_l1d arch_capabilities
+          configuration: microcode=33582597
+     *-pci
+          description: Host bridge
+          product: 440BX/ZX/DX - 82443BX/ZX/DX Host bridge
+          vendor: Intel Corporation
+          physical id: 100
+          bus info: pci@0000:00:00.0
+          version: 01
+          width: 32 bits
+          clock: 33MHz
+        *-pci:0
+             description: PCI bridge
+             product: 440BX/ZX/DX - 82443BX/ZX/DX AGP bridge
+             vendor: Intel Corporation
+             physical id: 1
+             bus info: pci@0000:00:01.0
+             version: 01
+             width: 32 bits
+             clock: 66MHz
+             capabilities: pci normal_decode bus_master
+        *-isa
+             description: ISA bridge
+             product: 82371AB/EB/MB PIIX4 ISA
+             vendor: Intel Corporation
+             physical id: 7
+             bus info: pci@0000:00:07.0
+             version: 08
+             width: 32 bits
+             clock: 33MHz
+             capabilities: isa bus_master
+             configuration: latency=0
+           *-pnp00:00
+                product: PnP device PNP0c02
+                physical id: 0
+                capabilities: pnp
+                configuration: driver=system
+           *-pnp00:01
+                product: PnP device PNP0b00
+                physical id: 1
+                capabilities: pnp
+                configuration: driver=rtc_cmos
+           *-pnp00:02
+                product: PnP device PNP0303
+                physical id: 2
+                capabilities: pnp
+                configuration: driver=i8042 kbd
+           *-pnp00:03
+                product: PnP device VMW0003
+                vendor: VMware Inc.,
+                physical id: 3
+                capabilities: pnp
+                configuration: driver=i8042 aux
+           *-pnp00:04
+                product: PnP device PNP0103
+                physical id: 4
+                capabilities: pnp
+                configuration: driver=system
+           *-pnp00:05
+                product: PnP device PNP0c02
+                physical id: 5
+                capabilities: pnp
+                configuration: driver=system
+        *-ide
+             description: IDE interface
+             product: 82371AB/EB/MB PIIX4 IDE
+             vendor: Intel Corporation
+             physical id: 7.1
+             bus info: pci@0000:00:07.1
+             version: 01
+             width: 32 bits
+             clock: 33MHz
+             capabilities: ide isa_compat_mode pci_native_mode bus_master
+             configuration: driver=ata_piix latency=64
+             resources: irq:0 ioport:1f0(size=8) ioport:3f6 ioport:170(size=8) ioport:376 ioport:1060(size=16)
+        *-bridge UNCLAIMED
+             description: Bridge
+             product: 82371AB/EB/MB PIIX4 ACPI
+             vendor: Intel Corporation
+             physical id: 7.3
+             bus info: pci@0000:00:07.3
+             version: 08
+             width: 32 bits
+             clock: 33MHz
+             capabilities: bridge
+             configuration: latency=0
+        *-generic
+             description: System peripheral
+             product: Virtual Machine Communication Interface
+             vendor: VMware
+             physical id: 7.7
+             bus info: pci@0000:00:07.7
+             version: 10
+             width: 64 bits
+             clock: 33MHz
+             capabilities: bus_master cap_list
+             configuration: driver=vmw_vmci latency=64 maxlatency=255 mingnt=6
+             resources: irq:16 ioport:1080(size=64) memory:febfe000-febfffff
+        *-display
+             description: VGA compatible controller
+             product: SVGA II Adapter
+             vendor: VMware
+             physical id: f
+             bus info: pci@0000:00:0f.0
+             logical name: /dev/fb0
+             version: 00
+             width: 32 bits
+             clock: 33MHz
+             capabilities: vga_controller bus_master cap_list rom fb
+             configuration: depth=32 driver=vmwgfx latency=64 resolution=1280,800
+             resources: irq:16 ioport:1070(size=16) memory:e8000000-efffffff memory:fe000000-fe7fffff memory:c0000-dffff
+        *-pci:1
+             description: PCI bridge
+             product: PCI bridge
+             vendor: VMware
+             physical id: 11
+             bus info: pci@0000:00:11.0
+             version: 02
+             width: 32 bits
+             clock: 33MHz
+             capabilities: pci subtractive_decode bus_master cap_list
+             resources: ioport:2000(size=8192) memory:fd500000-fdffffff ioport:e7b00000(size=5242880)
+           *-sata
+                description: SATA controller
+                product: SATA AHCI controller
+                vendor: VMware
+                physical id: 1
+                bus info: pci@0000:02:01.0
+                version: 00
+                width: 32 bits
+                clock: 66MHz
+                capabilities: sata ahci_1.0 bus_master cap_list rom
+                configuration: driver=ahci latency=64
+                resources: irq:66 memory:fd5ff000-fd5fffff memory:fd500000-fd50ffff
+        *-pci:2
+             description: PCI bridge
+             product: PCI Express Root Port
+             vendor: VMware
+             physical id: 15
+             bus info: pci@0000:00:15.0
+             version: 01
+             width: 32 bits
+             clock: 33MHz
+             capabilities: pci normal_decode bus_master cap_list
+             configuration: driver=pcieport
+             resources: irq:24 ioport:4000(size=4096) memory:fd400000-fd4fffff ioport:c0000000(size=2097152)
+           *-sas
+                description: Serial Attached SCSI controller
+                product: PVSCSI SCSI Controller
+                vendor: VMware
+                physical id: 0
+                bus info: pci@0000:03:00.0
+                version: 02
+                width: 64 bits
+                clock: 33MHz
+                capabilities: sas bus_master cap_list rom
+                configuration: driver=vmw_pvscsi latency=0
+                resources: irq:18 ioport:4000(size=8) memory:fd4f8000-fd4fffff memory:fd400000-fd40ffff
+        *-pci:3
+             description: PCI bridge
+             product: PCI Express Root Port
+             vendor: VMware
+             physical id: 15.1
+             bus info: pci@0000:00:15.1
+             version: 01
+             width: 32 bits
+             clock: 33MHz
+             capabilities: pci normal_decode bus_master cap_list
+             configuration: driver=pcieport
+             resources: irq:25 ioport:8000(size=4096) memory:fd000000-fd0fffff ioport:e7800000(size=1048576)
+        *-pci:4
+             description: PCI bridge
+             product: PCI Express Root Port
+             vendor: VMware
+             physical id: 15.2
+             bus info: pci@0000:00:15.2
+             version: 01
+             width: 32 bits
+             clock: 33MHz
+             capabilities: pci normal_decode bus_master cap_list
+             configuration: driver=pcieport
+             resources: irq:26 ioport:c000(size=4096) memory:fcc00000-fccfffff ioport:e7400000(size=1048576)
+        *-pci:5
+             description: PCI bridge
+             product: PCI Express Root Port
+             vendor: VMware
+             physical id: 15.3
+             bus info: pci@0000:00:15.3
+             version: 01
+             width: 32 bits
+             clock: 33MHz
+             capabilities: pci normal_decode bus_master cap_list
+             configuration: driver=pcieport
+             resources: irq:27 memory:fc800000-fc8fffff ioport:e7000000(size=1048576)
+        *-pci:6
+             description: PCI bridge
+             product: PCI Express Root Port
+             vendor: VMware
+             physical id: 15.4
+             bus info: pci@0000:00:15.4
+             version: 01
+             width: 32 bits
+             clock: 33MHz
+             capabilities: pci normal_decode bus_master cap_list
+             configuration: driver=pcieport
+             resources: irq:28 memory:fc400000-fc4fffff ioport:e6c00000(size=1048576)
+        *-pci:7
+             description: PCI bridge
+             product: PCI Express Root Port
+             vendor: VMware
+             physical id: 15.5
+             bus info: pci@0000:00:15.5
+             version: 01
+             width: 32 bits
+             clock: 33MHz
+             capabilities: pci normal_decode bus_master cap_list
+             configuration: driver=pcieport
+             resources: irq:29 memory:fc000000-fc0fffff ioport:e6800000(size=1048576)
+        *-pci:8
+             description: PCI bridge
+             product: PCI Express Root Port
+             vendor: VMware
+             physical id: 15.6
+             bus info: pci@0000:00:15.6
+             version: 01
+             width: 32 bits
+             clock: 33MHz
+             capabilities: pci normal_decode bus_master cap_list
+             configuration: driver=pcieport
+             resources: irq:30 memory:fbc00000-fbcfffff ioport:e6400000(size=1048576)
+        *-pci:9
+             description: PCI bridge
+             product: PCI Express Root Port
+             vendor: VMware
+             physical id: 15.7
+             bus info: pci@0000:00:15.7
+             version: 01
+             width: 32 bits
+             clock: 33MHz
+             capabilities: pci normal_decode bus_master cap_list
+             configuration: driver=pcieport
+             resources: irq:31 memory:fb800000-fb8fffff ioport:e6000000(size=1048576)
+        *-pci:10
+             description: PCI bridge
+             product: PCI Express Root Port
+             vendor: VMware
+             physical id: 16
+             bus info: pci@0000:00:16.0
+             version: 01
+             width: 32 bits
+             clock: 33MHz
+             capabilities: pci normal_decode bus_master cap_list
+             configuration: driver=pcieport
+             resources: irq:32 ioport:5000(size=4096) memory:fd300000-fd3fffff ioport:c0200000(size=2097152)
+           *-network
+                description: Ethernet interface
+                product: VMXNET3 Ethernet Controller
+                vendor: VMware
+                physical id: 0
+                bus info: pci@0000:0b:00.0
+                logical name: ens192
+                version: 01
+                serial: 00:50:56:8c:f7:a2
+                size: 10Gbit/s
+                capacity: 10Gbit/s
+                width: 32 bits
+                clock: 33MHz
+                capabilities: bus_master cap_list rom ethernet physical logical tp 1000bt-fd 10000bt-fd
+                configuration: autonegotiation=off broadcast=yes driver=vmxnet3 driverversion=1.7.0.0-k-NAPI duplex=full ip=10.251.187.202 latency=0 link=yes multicast=yes port=twisted pair speed=10Gbit/s
+                resources: irq:19 memory:fd3fc000-fd3fcfff memory:fd3fd000-fd3fdfff memory:fd3fe000-fd3fffff ioport:5000(size=16) memory:fd300000-fd30ffff
+        *-pci:11
+             description: PCI bridge
+             product: PCI Express Root Port
+             vendor: VMware
+             physical id: 16.1
+             bus info: pci@0000:00:16.1
+             version: 01
+             width: 32 bits
+             clock: 33MHz
+             capabilities: pci normal_decode bus_master cap_list
+             configuration: driver=pcieport
+             resources: irq:33 ioport:9000(size=4096) memory:fcf00000-fcffffff ioport:e7700000(size=1048576)
+        *-pci:12
+             description: PCI bridge
+             product: PCI Express Root Port
+             vendor: VMware
+             physical id: 16.2
+             bus info: pci@0000:00:16.2
+             version: 01
+             width: 32 bits
+             clock: 33MHz
+             capabilities: pci normal_decode bus_master cap_list
+             configuration: driver=pcieport
+             resources: irq:34 ioport:d000(size=4096) memory:fcb00000-fcbfffff ioport:e7300000(size=1048576)
+        *-pci:13
+             description: PCI bridge
+             product: PCI Express Root Port
+             vendor: VMware
+             physical id: 16.3
+             bus info: pci@0000:00:16.3
+             version: 01
+             width: 32 bits
+             clock: 33MHz
+             capabilities: pci normal_decode bus_master cap_list
+             configuration: driver=pcieport
+             resources: irq:35 memory:fc700000-fc7fffff ioport:e6f00000(size=1048576)
+        *-pci:14
+             description: PCI bridge
+             product: PCI Express Root Port
+             vendor: VMware
+             physical id: 16.4
+             bus info: pci@0000:00:16.4
+             version: 01
+             width: 32 bits
+             clock: 33MHz
+             capabilities: pci normal_decode bus_master cap_list
+             configuration: driver=pcieport
+             resources: irq:36 memory:fc300000-fc3fffff ioport:e6b00000(size=1048576)
+        *-pci:15
+             description: PCI bridge
+             product: PCI Express Root Port
+             vendor: VMware
+             physical id: 16.5
+             bus info: pci@0000:00:16.5
+             version: 01
+             width: 32 bits
+             clock: 33MHz
+             capabilities: pci normal_decode bus_master cap_list
+             configuration: driver=pcieport
+             resources: irq:37 memory:fbf00000-fbffffff ioport:e6700000(size=1048576)
+        *-pci:16
+             description: PCI bridge
+             product: PCI Express Root Port
+             vendor: VMware
+             physical id: 16.6
+             bus info: pci@0000:00:16.6
+             version: 01
+             width: 32 bits
+             clock: 33MHz
+             capabilities: pci normal_decode bus_master cap_list
+             configuration: driver=pcieport
+             resources: irq:38 memory:fbb00000-fbbfffff ioport:e6300000(size=1048576)
+        *-pci:17
+             description: PCI bridge
+             product: PCI Express Root Port
+             vendor: VMware
+             physical id: 16.7
+             bus info: pci@0000:00:16.7
+             version: 01
+             width: 32 bits
+             clock: 33MHz
+             capabilities: pci normal_decode bus_master cap_list
+             configuration: driver=pcieport
+             resources: irq:39 memory:fb700000-fb7fffff ioport:e5f00000(size=1048576)
+        *-pci:18
+             description: PCI bridge
+             product: PCI Express Root Port
+             vendor: VMware
+             physical id: 17
+             bus info: pci@0000:00:17.0
+             version: 01
+             width: 32 bits
+             clock: 33MHz
+             capabilities: pci normal_decode bus_master cap_list
+             configuration: driver=pcieport
+             resources: irq:40 ioport:6000(size=4096) memory:fd200000-fd2fffff ioport:e7a00000(size=1048576)
+        *-pci:19
+             description: PCI bridge
+             product: PCI Express Root Port
+             vendor: VMware
+             physical id: 17.1
+             bus info: pci@0000:00:17.1
+             version: 01
+             width: 32 bits
+             clock: 33MHz
+             capabilities: pci normal_decode bus_master cap_list
+             configuration: driver=pcieport
+             resources: irq:41 ioport:a000(size=4096) memory:fce00000-fcefffff ioport:e7600000(size=1048576)
+        *-pci:20
+             description: PCI bridge
+             product: PCI Express Root Port
+             vendor: VMware
+             physical id: 17.2
+             bus info: pci@0000:00:17.2
+             version: 01
+             width: 32 bits
+             clock: 33MHz
+             capabilities: pci normal_decode bus_master cap_list
+             configuration: driver=pcieport
+             resources: irq:42 ioport:e000(size=4096) memory:fca00000-fcafffff ioport:e7200000(size=1048576)
+        *-pci:21
+             description: PCI bridge
+             product: PCI Express Root Port
+             vendor: VMware
+             physical id: 17.3
+             bus info: pci@0000:00:17.3
+             version: 01
+             width: 32 bits
+             clock: 33MHz
+             capabilities: pci normal_decode bus_master cap_list
+             configuration: driver=pcieport
+             resources: irq:43 memory:fc600000-fc6fffff ioport:e6e00000(size=1048576)
+        *-pci:22
+             description: PCI bridge
+             product: PCI Express Root Port
+             vendor: VMware
+             physical id: 17.4
+             bus info: pci@0000:00:17.4
+             version: 01
+             width: 32 bits
+             clock: 33MHz
+             capabilities: pci normal_decode bus_master cap_list
+             configuration: driver=pcieport
+             resources: irq:44 memory:fc200000-fc2fffff ioport:e6a00000(size=1048576)
+        *-pci:23
+             description: PCI bridge
+             product: PCI Express Root Port
+             vendor: VMware
+             physical id: 17.5
+             bus info: pci@0000:00:17.5
+             version: 01
+             width: 32 bits
+             clock: 33MHz
+             capabilities: pci normal_decode bus_master cap_list
+             configuration: driver=pcieport
+             resources: irq:45 memory:fbe00000-fbefffff ioport:e6600000(size=1048576)
+        *-pci:24
+             description: PCI bridge
+             product: PCI Express Root Port
+             vendor: VMware
+             physical id: 17.6
+             bus info: pci@0000:00:17.6
+             version: 01
+             width: 32 bits
+             clock: 33MHz
+             capabilities: pci normal_decode bus_master cap_list
+             configuration: driver=pcieport
+             resources: irq:46 memory:fba00000-fbafffff ioport:e6200000(size=1048576)
+        *-pci:25
+             description: PCI bridge
+             product: PCI Express Root Port
+             vendor: VMware
+             physical id: 17.7
+             bus info: pci@0000:00:17.7
+             version: 01
+             width: 32 bits
+             clock: 33MHz
+             capabilities: pci normal_decode bus_master cap_list
+             configuration: driver=pcieport
+             resources: irq:47 memory:fb600000-fb6fffff ioport:e5e00000(size=1048576)
+        *-pci:26
+             description: PCI bridge
+             product: PCI Express Root Port
+             vendor: VMware
+             physical id: 18
+             bus info: pci@0000:00:18.0
+             version: 01
+             width: 32 bits
+             clock: 33MHz
+             capabilities: pci normal_decode bus_master cap_list
+             configuration: driver=pcieport
+             resources: irq:48 ioport:7000(size=4096) memory:fd100000-fd1fffff ioport:e7900000(size=1048576)
+        *-pci:27
+             description: PCI bridge
+             product: PCI Express Root Port
+             vendor: VMware
+             physical id: 18.1
+             bus info: pci@0000:00:18.1
+             version: 01
+             width: 32 bits
+             clock: 33MHz
+             capabilities: pci normal_decode bus_master cap_list
+             configuration: driver=pcieport
+             resources: irq:49 ioport:b000(size=4096) memory:fcd00000-fcdfffff ioport:e7500000(size=1048576)
+        *-pci:28
+             description: PCI bridge
+             product: PCI Express Root Port
+             vendor: VMware
+             physical id: 18.2
+             bus info: pci@0000:00:18.2
+             version: 01
+             width: 32 bits
+             clock: 33MHz
+             capabilities: pci normal_decode bus_master cap_list
+             configuration: driver=pcieport
+             resources: irq:50 memory:fc900000-fc9fffff ioport:e7100000(size=1048576)
+        *-pci:29
+             description: PCI bridge
+             product: PCI Express Root Port
+             vendor: VMware
+             physical id: 18.3
+             bus info: pci@0000:00:18.3
+             version: 01
+             width: 32 bits
+             clock: 33MHz
+             capabilities: pci normal_decode bus_master cap_list
+             configuration: driver=pcieport
+             resources: irq:51 memory:fc500000-fc5fffff ioport:e6d00000(size=1048576)
+        *-pci:30
+             description: PCI bridge
+             product: PCI Express Root Port
+             vendor: VMware
+             physical id: 18.4
+             bus info: pci@0000:00:18.4
+             version: 01
+             width: 32 bits
+             clock: 33MHz
+             capabilities: pci normal_decode bus_master cap_list
+             configuration: driver=pcieport
+             resources: irq:52 memory:fc100000-fc1fffff ioport:e6900000(size=1048576)
+        *-pci:31
+             description: PCI bridge
+             product: PCI Express Root Port
+             vendor: VMware
+             physical id: 18.5
+             bus info: pci@0000:00:18.5
+             version: 01
+             width: 32 bits
+             clock: 33MHz
+             capabilities: pci normal_decode bus_master cap_list
+             configuration: driver=pcieport
+             resources: irq:53 memory:fbd00000-fbdfffff ioport:e6500000(size=1048576)
+        *-pci:32
+             description: PCI bridge
+             product: PCI Express Root Port
+             vendor: VMware
+             physical id: 18.6
+             bus info: pci@0000:00:18.6
+             version: 01
+             width: 32 bits
+             clock: 33MHz
+             capabilities: pci normal_decode bus_master cap_list
+             configuration: driver=pcieport
+             resources: irq:54 memory:fb900000-fb9fffff ioport:e6100000(size=1048576)
+        *-pci:33
+             description: PCI bridge
+             product: PCI Express Root Port
+             vendor: VMware
+             physical id: 18.7
+             bus info: pci@0000:00:18.7
+             version: 01
+             width: 32 bits
+             clock: 33MHz
+             capabilities: pci normal_decode bus_master cap_list
+             configuration: driver=pcieport
+             resources: irq:55 memory:fb500000-fb5fffff ioport:e5d00000(size=1048576)
+  *-input:0
+       product: Power Button
+       physical id: 1
+       logical name: input0
+       logical name: /dev/input/event0
+       capabilities: platform
+  *-input:1
+       product: AT Translated Set 2 keyboard
+       physical id: 2
+       logical name: input1
+       logical name: /dev/input/event1
+       logical name: input1::capslock
+       logical name: input1::numlock
+       logical name: input1::scrolllock
+       capabilities: i8042
+  *-input:2
+       product: VirtualPS/2 VMware VMMouse
+       physical id: 3
+       logical name: input3
+       logical name: /dev/input/event3
+       logical name: /dev/input/mouse1
+       capabilities: i8042
+  *-input:3
+       product: VirtualPS/2 VMware VMMouse
+       physical id: 4
+       logical name: input4
+       logical name: /dev/input/event2
+       logical name: /dev/input/mouse0
+       capabilities: i8042
+  *-input:4
+       product: PC Speaker
+       physical id: 5
+       logical name: input5
+       logical name: /dev/input/event4
+       capabilities: isa
