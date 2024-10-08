@@ -33,42 +33,54 @@ By default, Posit uses Python 3.6. To check available versions, copy-paste:
    cd RADD
    ls -lstr 
    ```
+
+
+   
 ### Part 2. Build
 
-1. Create virtual environment (VE):
+1. Navigate to the location where your ```requirements.txt``` is saved; e.g.
    ```
-   conda create --name raddpt2 python=3.12  # 
-   ```
-
-   Or, store the VE under your folder
-   ```
-   mkdir $HOME/myvenv/
-   conda create --prefix $HOME/myvenv/raddpt2 python=3.12  # 
+   cd $HOME/DSI/RADD/workflows/part2_version2
    ```
  
-   Or, without use of conda:
+1. Create a virtual environment (VE). Three options:
+
+   Option A:
+   ```
+   conda create --name raddpt2 python=3.12   
+   ```
+
+   Option B: Store the VE under your folder
+   ```
+   mkdir $HOME/myvenv/
+   conda create --prefix $HOME/myvenv/raddpt2 python=3.12  
+   ```
+ 
+   Option C: Build without use of conda
    ```
    python3 -m venv raddpt2
    ```
 
-2. Activate virtual environment
+3. Activate virtual environment:
+
+   Option A or B:
    ```
    conda activate raddpt2
    ```
  
-   Or, without use of conda:
+   Option C:
    ```
    source raddpt2\bin\activate
    ```
 
-3. Optionally upgrade pip:
+5. Optionally, upgrade pip:
    ```
    pip install --upgrade pip
    ```
 
-4. Build:
+6. Build:
    ```
-   pip install -r requirementsWindows.txt
+   pip install -r requirements.txt
    ```
    
  ![image](https://github.com/user-attachments/assets/8b6a87cc-e74c-43d5-9024-6b905604de00)
