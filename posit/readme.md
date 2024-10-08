@@ -43,7 +43,7 @@ By default, Posit uses Python 3.6. To check available versions, copy-paste:
    cd $HOME/DSI/RADD/workflows/part2_version2
    ```
  
-1. Create a virtual environment (VE). Three options:
+2. Create a virtual environment (VE). Three options:
 
    Option A:
    ```
@@ -61,24 +61,22 @@ By default, Posit uses Python 3.6. To check available versions, copy-paste:
    python3 -m venv raddpt2
    ```
 
-3. Activate virtual environment:
+3. Activate virtual environment and upgrade ```pip```:
 
    Option A or B:
    ```
    conda activate raddpt2
+   conda install pip
    ```
  
    Option C:
    ```
    source raddpt2\bin\activate
-   ```
-
-5. Optionally, upgrade pip:
-   ```
    pip install --upgrade pip
    ```
 
-6. Build:
+
+4. Build:
    ```
    pip install -r requirements.txt
    ```
