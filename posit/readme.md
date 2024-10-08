@@ -109,12 +109,12 @@ Note: ```conda``` is not available by default. On 2024-10-03, we were able to do
   bash Miniconda3-latest-Linux-x86_64.sh
   ```
 
-3. Disable the auto-initialization of conda:
+3. Optionally, disable the auto-initialization of conda:
   ```
   conda config --set auto_activate_base false
   ```
 
-4. Activate conda's base environment:
+4. **If disabled by default**, you would need to activate conda's base environment every time you start new session:
   ```
   eval "$($HOME/miniconda3/bin/conda shell.bash hook)"
   ```
