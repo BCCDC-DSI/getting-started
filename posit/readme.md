@@ -13,11 +13,37 @@ By default, Posit uses Python 3.6. To check available versions, copy-paste:
 
 # Use cases 
 
-## Scenario 1: cloning Python code from existing repo (created by your peers)
+## Scenario 1: Reproducing environment from Python Git repo (created by your peers)
 
-1. Create virtual environment:
+### Part 1. Clone
+
+1. Navigate to the location where you plan to save your work, e.g., create a folder called ```DSI``` in your home directory $HOME
+   ```
+   mkdir $HOME/DSI
+   cd $HOME/DSI   
+   ```
+   
+2. Clone the repository:
+   ```
+   git clone https://github.com/BCCDC-DSI/RADD.git
+   ```
+   
+3. Optional, list the items in the repo
+   ```
+   cd RADD
+   ls -lstr 
+   ```
+### Part 2. Build
+
+1. Create virtual environment (VE):
    ```
    conda create --name raddpt2 python=3.12  # 
+   ```
+
+   Or, store the VE under your folder
+   ```
+   mkdir $HOME/myvenv/
+   conda create --prefix $HOME/myvenv/raddpt2 python=3.12  # 
    ```
  
    Or, without use of conda:
@@ -52,13 +78,11 @@ By default, Posit uses Python 3.6. To check available versions, copy-paste:
 
 # Git
 
-```
-git config --global user.email "you@example.com"
-```
-
-```
-git config --global user.name "your_github_username"
-```
+1. Configure for the first time
+   ```
+   git config --global user.email "you@example.com"
+   git config --global user.name "your_github_username"
+   ```
 
 
 # Conda
