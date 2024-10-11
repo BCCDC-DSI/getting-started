@@ -7,7 +7,7 @@ Your name matters!
 
 Here's a [tool to use when introducing your name](https://mynameis.raceequalitymatters.com/)
 
-## Internet
+## Internet connection
 
 - Public Wi-Fi is not recommended
 - [Password for healthguest](http://infocentre.healthbc.org/resources/wi-fi/corporate-guest) changes each month.
@@ -31,7 +31,6 @@ Here's a [tool to use when introducing your name](https://mynameis.raceequalitym
 </details>
 
 ## Room-booking
-
  
 
 - Consider booking enclosed rooms for meeting via Outlook or [ARCHIBUS](https://archibus.healthbc.org/archibus/schema/ab-products/essential/workplace/index.html)
@@ -134,3 +133,16 @@ Note also that SharePoint materials are ready-only by PHSA-member.
 - [Installing Python + creating virtual env without Anaconda](python), last tested on 2024-10-02
 - [Posit Workbench](posit), last tested on 2024-10-04 
 
+
+## 
+
+
+## Meetup's / resources
+
+- [Data Science Rounds (bi-weekly)](\\phsabc\root\BCCDC\Groups\Analytics_Resources\Training\Biostats\Sessions)
+- [Biostatistician affogato](\\phsabc\root\BCCDC\Groups\Analytics_Resources\Biostatistician Affogato Meetings)
+- [Grand rounds](https://nexuswebcast.mediasite.com/Mediasite/Showcase/bc-cdc-showcase) 
+- R working group (last Thursday of each month)
+- Internal:
+  - PANDAS monthly meeting
+  - PAWS weekly meetings
