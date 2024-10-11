@@ -134,14 +134,13 @@ Note also that SharePoint materials are ready-only by PHSA-member.
 - [Posit Workbench](posit), last tested on 2024-10-04 
 
 
-## 
 
-
-## Meetup's / resources
+## Meetup's / Resources
 
 - [Data Science Rounds (bi-weekly)](\\phsabc\root\BCCDC\Groups\Analytics_Resources\Training\Biostats\Sessions)
-- [Biostatistician affogato](\\phsabc\root\BCCDC\Groups\Analytics_Resources\Biostatistician Affogato Meetings)
-- [Grand rounds](https://nexuswebcast.mediasite.com/Mediasite/Showcase/bc-cdc-showcase) 
+- [Biostatistician affogato (occasional) in-person journal club](\\phsabc\root\BCCDC\Groups\Analytics_Resources\)
+- [Grand rounds](https://nexuswebcast.mediasite.com/Mediasite/Showcase/bc-cdc-showcase)
+- Monday virtual book club
 - R working group (last Thursday of each month)
 - Internal:
   - PANDAS monthly meeting
