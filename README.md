@@ -138,7 +138,7 @@ Note also that SharePoint materials are ready-only by PHSA-member.
 ## Meetup's / Resources
 
 - [Data Science Rounds (bi-weekly)](\\phsabc\root\BCCDC\Groups\Analytics_Resources\Training\Biostats\Sessions)
-- [Biostatistician affogato (occasional) in-person journal club](\\phsabc\root\BCCDC\Groups\Analytics_Resources\)
+- Papers reviewed at the Biostatistician affogato [in-person journal club](\\phsabc\root\BCCDC\Groups\Analytics_Resources\)
 - [Grand rounds](https://nexuswebcast.mediasite.com/Mediasite/Showcase/bc-cdc-showcase)
 - Monday virtual book club
 - R working group (last Thursday of each month)
