@@ -7,6 +7,12 @@ Your name matters!
 
 Here's a [tool to use when introducing your name](https://mynameis.raceequalitymatters.com/)
 
+## Important checks after week 2
+
+- [Pay Stubs](https://pay.phsa.ca/)
+- More info on [Pay and benefits](https://pod.phsa.ca/employee-essentials/finance/payroll/Pages/default.aspx)
+
+
 ## Internet connection
 
 - Public Wi-Fi is not recommended
