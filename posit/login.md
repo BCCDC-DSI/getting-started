@@ -5,5 +5,6 @@
 
 ![image](https://github.com/user-attachments/assets/4d48e40b-c9f2-4861-8af1-835568f8d935)
 
+Choose ```Active Directory```
 
 [Return to Posit](readme.md)
