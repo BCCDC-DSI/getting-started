@@ -127,4 +127,9 @@ Note: ```conda``` is not available by default. On 2024-10-03, we were able to do
 ## Via terminal
 ![image](https://github.com/user-attachments/assets/ef04a109-feae-42c4-8050-fd7fe7bfb225)
 
+## Navigating to data folders
+
+![image](https://github.com/user-attachments/assets/28ba6067-0ed1-4819-a09e-8a6a9ef631c3)
+
+
 [Return to home](..)
