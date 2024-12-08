@@ -84,7 +84,7 @@ To illustrate, clone from a repo containing Python code (previously prepared by 
 - To create kernel for use in JupyterLab / JupyterNotebook
 - Example:
 ```
-python -m ipykernel install --user --name=py3.12-ker
+python -m ipykernel install --user --name=radd-p2 --display-name "Py312"
 ```
 
 
