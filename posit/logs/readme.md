@@ -2,9 +2,19 @@
 
 # Survey done on 2025-01-08
 
-## VS code remains a problem
+## VS code 
 
-![image](https://github.com/user-attachments/assets/2c11d5b8-aa91-410b-981a-75666c3a47c4)
+- Git clone/ inability to use Python in VS Code remains a problem
+<details>
+
+<summary>Cannot access subfolders of ```Analytics```</summary>
+
+- ![image](https://github.com/user-attachments/assets/2c11d5b8-aa91-410b-981a-75666c3a47c4)
+
+</details>
+
+
+
 
 
 ## Jupyter Lab
