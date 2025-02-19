@@ -2,4 +2,4 @@
 
 # How to change the default file to be rendered?
 
-![image](https://github.com/user-attachments/assets/fe519dd8-02d8-4fb2-b210-8a87afd5b88e)
+![image](https://github.com/user-attachments/assets/3ce18f2c-b73f-49cf-8455-224d676117dd)
