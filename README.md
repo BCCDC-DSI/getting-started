@@ -11,7 +11,7 @@ Here's a [tool to use when introducing your name](https://mynameis.raceequalitym
 
 - [Pay Stubs](https://pay.phsa.ca/)
 - More info on [Pay and benefits](https://pod.phsa.ca/employee-essentials/finance/payroll/Pages/default.aspx)
-- WFM [https://myworkforce.phsa.ca/mobility/app/Index.html#/myForms]
+- [WFM](https://myworkforce.phsa.ca/mobility/app/Index.html#/myForms)
 
 ## Internet connection
 
