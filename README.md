@@ -73,15 +73,13 @@ Here's a [tool to use when introducing your name](https://mynameis.raceequalitym
  
 <summary>Book through Outlook</summary> 
 
-1. Send a meeting invite to a meeting room
-  
-2. Optionally, add CDC rooms' availablity onto your calendar
-
-1. On Outlook, click on the calendar tab
-2. Right-click on "Add Calendar" on the sidebar
-3. Choose "From Room List"
-4. Enter "CDC use only"
-5. Double-click those marked with "CDC use only - Room..." (n=9)
+1. Send a meeting invite to a meeting room  
+2. Optionally, add CDC rooms' availablity onto your calendar. To do so:
+    1. On Outlook, click on the calendar tab
+    2. Right-click on "Add Calendar" on the sidebar
+    3. Choose "From Room List"
+    4. Enter "CDC use only"
+    5. Double-click those marked with "CDC use only - Room..." (n=9)
 
 </details>
 
@@ -133,6 +131,9 @@ One would need to ask for permission to gain access to...
 
 Note also that SharePoint materials are ready-only by PHSA-member. 
 
+## Policies on Leaves
+
+Non-contract: https://pod.phsa.ca/workplace-resources/policies-procedures/acrossPhsa/C-99-11-20216.pdf
 
 ## Working with Python
 
