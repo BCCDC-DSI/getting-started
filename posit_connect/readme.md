@@ -1,6 +1,16 @@
 
 # Posit Connect *Cloud* 
 
+
+<details>
+<summary>In-house</summary>
+</details>
+
+
+<details>
+<summary>Personal (free) account on the public domain</summary>
+
+
 ## Account creation & Log-in
 
 1. https://login.posit.cloud/login/
@@ -31,4 +41,5 @@ Switch to customize URL at the bottom:
 ![image](https://github.com/user-attachments/assets/1d4bc89d-5a98-4abd-b561-bff46f790f21)
 
 
+</details>
 </details>
