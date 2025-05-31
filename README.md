@@ -122,9 +122,10 @@ One would need to ask for permission to gain access to...
 
 - O: drive - To get access to this drive, please email the person who provided your orientation
 
-- GitLab
-  - [GitLab quick notes](gitlab)
-  - See [guide](https://healthbc-my.sharepoint.com/:w:/g/personal/kathleen_mclean_bccdc_ca/EZ04hCW-tX1KjcWe0oCA41EBnB1hEtVWeLw5prlKj3kQ0Q?e=E90wOC) before emailing administrator
+- Git
+  - [GitHub notes](git)
+  - [GitLab quick notes](git/gitlab.md)
+      - See [guide](https://healthbc-my.sharepoint.com/:w:/g/personal/kathleen_mclean_bccdc_ca/EZ04hCW-tX1KjcWe0oCA41EBnB1hEtVWeLw5prlKj3kQ0Q?e=E90wOC) to get access 
 
 - [Posit Cloud](posit)
   - For R and Python users
