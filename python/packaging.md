@@ -15,8 +15,13 @@ Once done, the wheels will be saved under ```dist``` folder
 
 ## Upload the wheels to pypi
 
-1. Copy-paste API token
-2. Issue following command:
+1. Create [PyPi account](https://pypi.org/manage/account/token/)
+
+2. Copy-paste token:
+ 
+  ![image](https://github.com/user-attachments/assets/89d3afcc-d2f7-4140-85a7-4534cfe1566a)
+
+3. Issue following command:
 
   ```
   python3 -m twine upload dist/* --verbose
