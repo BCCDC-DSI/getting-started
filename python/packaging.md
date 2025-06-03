@@ -14,6 +14,21 @@ python3 -m build
 
 Once done, the wheels will be saved under ```dist``` folder
 
+## Edit ```pyproject.toml```
+
+- The modern packaging approach uses the ```pyproject.toml``` (instead of using ```requirements.txt``` and ```setup.py```)
+- Ensure the items in ```requirements.txt``` are added to ```pyproject.toml```; e.g.
+ 
+  ```
+  [project] 
+  dependencies = [
+      "dotenv>=0.9.9",
+      "pandas>=2.2.3",    
+      "twikit>=2.3.3",    
+  ]
+  ```
+ 
+
 ## Upload the wheels to pypi
 
 1. Create [PyPi account](https://pypi.org/manage/account/token/)
@@ -27,6 +42,7 @@ Once done, the wheels will be saved under ```dist``` folder
   ```
   python3 -m twine upload dist/*0.0.6* --verbose
   ```
+
 
 
 ```
