@@ -24,3 +24,10 @@ git config --global core.protectNTFS false
 ```
 
 and rerun ```git clone```
+
+
+# To change the commit message
+
+```
+git commit --amend
+```
