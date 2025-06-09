@@ -1,5 +1,7 @@
 # Top 5% income share
 
+[Live demo](https://connect-posit.bccdc.ca/streamlit-demo/)
+
 ## About this example
 
 A Streamlit application makes it easy to transform your analysis into an interactive dashboard using Python so users can ask and answer questions in real-time, without having to touch any code.
