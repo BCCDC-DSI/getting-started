@@ -3,7 +3,7 @@
 
 <summary>Submitting large files</summary>
 
-[Submitting large files](https://blog.rampatra.com/how-to-upload-large-files-to-a-git-repository)
+[See blog](https://blog.rampatra.com/how-to-upload-large-files-to-a-git-repository)
   
 </details>
 
