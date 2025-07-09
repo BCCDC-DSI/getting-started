@@ -1,6 +1,16 @@
 
-# Unable to checkout
+<details>
 
+<summary>Submitting large files</summary>
+
+[Submitting large files](https://blog.rampatra.com/how-to-upload-large-files-to-a-git-repository)
+  
+</details>
+
+<details> 
+  <summary>Unable to checkout</summary> 
+
+## Problem illustrated 
 ```
 git clone https://username:token@github.com/username/repo-name.git
 Cloning into 'repo-name'...
@@ -24,6 +34,8 @@ git config --global core.protectNTFS false
 ```
 
 and rerun ```git clone```
+
+</details> 
 
 
 # To change the commit message
